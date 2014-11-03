@@ -231,7 +231,7 @@ $(function() {
   socket.on('login', function (data) {
     connected = true;
     // Display the welcome message
-    var message = "======= 歡迎來到 Chat FCU 逢甲校聊 =======";
+    var message = "=== 歡迎來到 Chat FCU 逢甲校聊 ===";
     log(message, {
       prepend: true
     });

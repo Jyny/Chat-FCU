@@ -110,11 +110,11 @@ body {
   float: left;
   font-weight: 700;
   overflow: hidden;
-  padding-right: 15px;
+  padding-right: 10px;
   text-align: right;
 }
 
-/* Input */
+/* Input
 
 .inputMessage {
   border: 10px solid #000;
@@ -126,4 +126,4 @@ body {
   position: absolute;
   right: 0;
   width: 100%;
-}
+}*/
