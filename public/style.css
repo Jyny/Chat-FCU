@@ -4,20 +4,17 @@
   box-sizing: border-box;
 }
 
+html, body, input{
+  font-family: "微軟正黑體","Titillium Web", sans-serif;
+}
+
+body {
+  padding-bottom: 70px;
+}
+
 html {
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
-}
-
-html, input {
-  font-family:
-    "HelveticaNeue-Light",
-    "Helvetica Neue Light",
-    "Helvetica Neue",
-    Helvetica,
-    Arial,
-    "Lucida Grande",
-    sans-serif;
 }
 
 html, body {
@@ -58,7 +55,7 @@ ul {
   position: absolute;
 
   text-align: center;
-  top: 50%;
+  top: 36%;
   width: 100%;
 }
 
