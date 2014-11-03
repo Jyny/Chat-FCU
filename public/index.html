@@ -14,36 +14,31 @@
 
   <body>
 
-    <div class="container">
+    <div class="login page">
+      <div class="form">
+        <h1 class="title">歡迎來到 Chat FCU 逢甲校聊</h1>
+        <h3 class="title">你/妳是哪位逢甲人</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+      </div>
+    </div>
+
+    <div id="ChatPage" class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-
+          <div class="chat page">
+            <div class="chatArea">
+              <div class="messages"></div>
+            </div>
+          </div>
         </div><!-- /.col -->
       </div><!-- /.row -->
     </div><!-- /.container -->
-
-    <div class="pages">
-
-      <div class="chat page">
-        <div class="chatArea">
-          <div class="messages"></div>
-        </div>
-        <input class="inputMessage" placeholder="寫訊息"/>
-      </div>
-      <div class="login page">
-        <div class="form">
-          <h1 class="title">歡迎來到 Chat FCU 逢甲校聊</h1>
-          <h3 class="title">你/妳是哪位逢甲人</h3>
-          <input class="usernameInput" type="text" maxlength="14" />
-        </div>
-      </div>
-    </div>
 
     <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header" style="width:100%; margin-right:auto; margin-left:auto;">
           <div style="padding-top:10px;">
-            <input type="text" class="form-control" style="width:100%;" placeholder="YO">
+            <input type="text" id="inputMessage" class="form-control" style="width:100%;" placeholder="寫訊息...">
           </div><!-- /.tuning padding-top -->
         </div><!-- /.navbar-header -->
       </div><!-- /.container -->
