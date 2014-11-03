@@ -76,12 +76,12 @@ body {
 /* Font */
 
 .messages {
-  font-size: 150%;
+  font-size: 110%;
 }
 
-.inputMessage {
+/*.inputMessage {
   font-size: 100%;
-}
+}*/
 
 .log {
   color: gray;
@@ -110,7 +110,6 @@ body {
   float: left;
   font-weight: 700;
   overflow: hidden;
-  padding-right: 10px;
   text-align: right;
 }
 
