@@ -12,17 +12,6 @@ body {
   padding-bottom: 70px;
 }
 
-html {
-  font-weight: 300;
-  -webkit-font-smoothing: antialiased;
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 /* Pages
 
 .pages {
@@ -101,7 +90,7 @@ html, body {
   text-align: center;
 }
 
-/* Messages 
+/* Messages
 
 .chatArea {
   height: 100%;
