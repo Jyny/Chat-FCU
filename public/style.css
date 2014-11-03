@@ -23,11 +23,6 @@ html, body {
   padding: 0;
 }
 
-ul {
-  list-style: none;
-  word-wrap: break-word;
-}
-
 /* Pages */
 
 .pages {
