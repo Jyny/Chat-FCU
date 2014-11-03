@@ -44,7 +44,7 @@ $(function() {
     // If the username is valid
     if (username) {
       $loginPage.fadeOut();
-      $chatPage.show();
+      //$chatPage.show();
       $loginPage.off('click');
       $currentInput = $inputMessage.focus();
 
