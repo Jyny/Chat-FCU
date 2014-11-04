@@ -198,7 +198,7 @@ $(function() {
   $window.keydown(function (event) {
     // Auto-focus the current input when a key is typed
     if (!(event.ctrlKey || event.metaKey || event.altKey)) {
-      $currentInput.focus();
+      //$currentInput.focus();
     }
     // When the client hits ENTER on their keyboard
     if (event.which === 13) {
@@ -221,7 +221,7 @@ $(function() {
 
   // Focus input when clicking anywhere on login page
   $loginPage.click(function () {
-    $currentInput.focus();
+    //$currentInput.focus();
   });
 
   // Focus input when clicking on the message input's border
