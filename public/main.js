@@ -45,7 +45,8 @@ $(function() {
     // If the username is valid
     if (username) {
       $LoginPage.fadeOut();
-      $LoginPage.off('click');
+      $LoginPage.modal('hide');
+      //$LoginPage.off('click');
       $currentInput = $inputMessage.focus();
 
       // Tell the server your username
