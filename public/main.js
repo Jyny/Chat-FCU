@@ -46,7 +46,6 @@ $(function() {
     if (username) {
       $LoginPage.fadeOut();
       $LoginPage.modal('hide');
-      //$LoginPage.off('click');
       $currentInput = $inputMessage.focus();
 
       // Tell the server your username
