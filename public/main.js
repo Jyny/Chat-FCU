@@ -13,10 +13,8 @@ $(function() {
   var $messages = $('.messages'); // Messages area
   var $inputMessage = $('#inputMessage'); // Input message input box
 
-  //var $loginPage = $('.login.page'); // The login page
   var $LoginPage = $('#LoginPage'); // The login
   var $chatPage = $('#ChatPage'); // The chatroom page
-
 
   // Prompt for setting a username
   var username;
@@ -27,6 +25,7 @@ $(function() {
 
   var socket = io();
 
+  //log in message
   function addParticipantsMessage (data) {
     var message = '';
     if (data.numUsers === 1) {
