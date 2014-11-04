@@ -218,15 +218,10 @@ $(function() {
 
   // Click events
 
-  // Focus input when clicking anywhere on login page
+  // Focus input when clicking anywhere
   $window.click(function () {
     $currentInput.focus();
   });
-
-  // Focus input when clicking on the message input's border
-  //$chatPage.click(function () {
-  //  $currentInput.focus();
-  //});
 
 
   // Socket events
