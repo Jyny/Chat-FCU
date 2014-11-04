@@ -144,6 +144,7 @@ $(function() {
       $messages.append($el);
     }
     $messages[0].scrollTop = $messages[0].scrollHeight;
+    window.scrollTo(0,document.body.scrollHeight);
   }
 
   // Prevents input from having injected markup
