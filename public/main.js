@@ -220,7 +220,7 @@ $(function() {
 
   // Focus input when clicking anywhere on login page
   $LoginPage.click(function () {
-    //$currentInput.focus();
+    $currentInput.focus();
   });
 
   // Focus input when clicking on the message input's border
