@@ -13,8 +13,8 @@ $(function() {
   var $messages = $('.messages'); // Messages area
   var $inputMessage = $('#inputMessage'); // Input message input box
 
-  var $loginPage = $('.login.page'); // The login page
-  var $LoginPage = $('#LoginPage'); // The login 
+  //var $loginPage = $('.login.page'); // The login page
+  var $LoginPage = $('#LoginPage'); // The login
   var $chatPage = $('#ChatPage'); // The chatroom page
 
 
@@ -45,9 +45,8 @@ $(function() {
 
     // If the username is valid
     if (username) {
-      //$loginPage.fadeOut();
-      //$chatPage.show();
-      //$loginPage.off('click');
+      $LoginPage.fadeOut();
+      $LoginPage.off('click');
       $currentInput = $inputMessage.focus();
 
       // Tell the server your username
@@ -221,7 +220,7 @@ $(function() {
   // Click events
 
   // Focus input when clicking anywhere on login page
-  $loginPage.click(function () {
+  $LoginPage.click(function () {
     //$currentInput.focus();
   });
 
