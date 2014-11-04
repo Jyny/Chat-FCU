@@ -9,7 +9,7 @@ $(function() {
 
   // Initialize varibles
   var $window = $(window);
-  var $usernameInput = $('.usernameInput'); // Input for username
+  var $usernameInput = $('#UsernameInput'); // Input for username
   var $messages = $('.messages'); // Messages area
   var $inputMessage = $('#inputMessage'); // Input message input box
 
