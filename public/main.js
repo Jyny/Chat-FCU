@@ -10,11 +10,13 @@ $(function() {
   // Initialize varibles
   var $window = $(window);
   var $usernameInput = $('#UsernameInput'); // Input for username
-  var $inputMessage = $('#inputMessage'); // Input message input box
   var $messages = $('.messages'); // Messages area
+  var $inputMessage = $('#inputMessage'); // Input message input box
 
-  var $LoginPage = $('#LoginPage'); // The login modal
+  var $loginPage = $('.login.page'); // The login page
+  var $LoginPage = $('#LoginPage'); // The login 
   var $chatPage = $('#ChatPage'); // The chatroom page
+
 
   // Prompt for setting a username
   var username;
