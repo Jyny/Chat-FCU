@@ -15,6 +15,7 @@ $(function() {
 
   var $loginPage = $('.login.page'); // The login page
   var $chatPage = $('#ChatPage'); // The chatroom page
+  var $LoginPage = $('#LoginPage');
 
   // Prompt for setting a username
   var username;
@@ -43,9 +44,9 @@ $(function() {
 
     // If the username is valid
     if (username) {
-      $loginPage.fadeOut();
+      //$loginPage.fadeOut();
       //$chatPage.show();
-      $loginPage.off('click');
+      //$loginPage.off('click');
       $currentInput = $inputMessage.focus();
 
       // Tell the server your username
@@ -143,7 +144,7 @@ $(function() {
     } else {
       $messages.append($el);
     }
-    $messages[0].scrollTop = $messages[0].scrollHeight;
+      //$messages[0].scrollTop = $messages[0].scrollHeight;
     window.scrollTo(0,document.body.scrollHeight);
   }
 
@@ -191,6 +192,7 @@ $(function() {
     return COLORS[index];
   }
 
+
   // Keyboard events
 
   $window.keydown(function (event) {
@@ -214,6 +216,7 @@ $(function() {
     updateTyping();
   });
 
+
   // Click events
 
   // Focus input when clicking anywhere on login page
@@ -225,6 +228,7 @@ $(function() {
   $inputMessage.click(function () {
     $inputMessage.focus();
   });
+
 
   // Socket events
 
@@ -265,5 +269,12 @@ $(function() {
   // Whenever the server emits 'stop typing', kill the typing message
   socket.on('stop typing', function (data) {
     removeChatTyping(data);
+  });
+
+
+  //load page events
+
+  $window.load(function(){
+      $LoginPage.modal('show');
   });
 });

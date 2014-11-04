@@ -9,27 +9,44 @@
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Optional theme -->
     <!-- Custom styles for site -->
-    <link href="style.css" rel="stylesheet" >
+    <link href=".style.css" rel="stylesheet" >
   </head>
-
-  <body>
-
     <div class="login page">
       <div class="form">
-        <h1 class="title">歡迎來到 Chat FCU 逢甲校聊</h1>
-        <h3 class="title">你/妳是哪位逢甲人</h3>
+        <h3 class="title">What's your nickname?</h3>
         <input class="usernameInput" type="text" maxlength="14" />
       </div>
     </div>
-
+    <!-- Modal -->
+    <div class="modal fade" id="LoginPage" data-backdrop="static" data-keyboard="false">
+      <div class="modal-dialog">
+        <div class="modal-content" >
+          <div class="modal-header">
+            <h1>逢甲校聊 Chat FCU</h1>
+          </div><!-- /.modal-header -->
+          <div class="modal-body">
+            <p>歡迎來到 Chat FCU 逢甲校聊</p>
+            <center>
+              <h2>你/妳 是哪位逢甲人？</h2>
+              <div class="input-group input-group-lg">
+                <input class="form-control" type="text" placeholder="取個名子" maxlength="14" style="text-align:center;" />
+              </div>
+            </center>
+          </div><!-- /.modal-body -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div><!-- /.modal-footer -->
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal.fade -->
+    <!-- main page -->
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
-
           <div id="ChatPage">
             <div class="messages"></div>
           </div>
-
           <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
             <div class="container-fluid">
               <div class="navbar-header" style="width:100%; margin-right:auto; margin-left:auto;">
@@ -39,14 +56,18 @@
               </div><!-- /.navbar-header -->
             </div><!-- /.container -->
           </nav><!-- /.nav -->
-
         </div><!-- /.col -->
       </div><!-- /.row -->
     </div><!-- /.container -->
-
+    <!-- javascripts -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="/socket.io/socket.io.js"></script>
-    <script src="/main.js"></script>
+    <script src="./main.js"></script>
+    <script>
+    //    $(window).load(function(){
+    //        $('#LoginPage').modal('show');
+    //    });
+    </script>
   </body>
 </html>
