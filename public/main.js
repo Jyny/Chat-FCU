@@ -224,7 +224,7 @@ $(function() {
   });
 
   // Focus input when clicking on the message input's border
-  $inputMessage.click(function () {
+  $chatPage.click(function () {
     $inputMessage.focus();
   });
 
