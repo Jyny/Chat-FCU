@@ -6,8 +6,8 @@ demo site: http://dev-chat.fcu.today/
 
 ##about
 
-+use socket.io ,Nodejs , bootstrap   
-+run on heroku   
+*  use socket.io ,Nodejs , bootstrap   
+*  run on heroku   
 
 ##Fork from
 
