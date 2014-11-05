@@ -1,7 +1,7 @@
 Chat-FCU
 ==================================
 
-chat app for fcu run on heroku
+chat app for fcu run on heroku   
 demo site: http://dev-chat.fcu.today/
 
 ##Fork form
