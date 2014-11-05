@@ -2,9 +2,14 @@ Chat-FCU
 ==================================
 
 chat app for fcu run on heroku     
-demo site: http://dev-chat.fcu.today/
+demo site: http://dev-chat.fcu.today/  
 
-##Fork form
+##about
+
+>use socket.io ,Nodejs , bootstrap
+>run on heroku
+
+##Fork from
 
 This repo is modify from socket.io's example   
 https://github.com/Automattic/socket.io/tree/master/examples/chat  
