@@ -6,7 +6,7 @@ demo site: http://dev-chat.fcu.today/
 
 ##Fork form
 This repo is modify from   
-https://github.com/Automattic/socket.io/tree/master/examples/chat
+https://github.com/Automattic/socket.io/tree/master/examples/chat  
 This is origin demo site: http://chat.socket.io/
 
 ##modify info
