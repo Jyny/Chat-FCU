@@ -29,11 +29,11 @@ $(function() {
   function addParticipantsMessage (data) {
     var message = '';
     if (data.numUsers === 1) {
-      message +=  data.numUsers + " 位逢甲人正在線上";
+      message +=  data.numUsers + " people  online";
       log(message);
       log("一個人聊天好寂寞，快邀請朋友進來 http://chat.fcu.today/");
     } else {
-      message += "有 " + data.numUsers + " 位逢甲人正在線上";
+      message += "there are " + data.numUsers + " people online";
       log(message);
     }
   }
