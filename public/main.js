@@ -104,7 +104,7 @@ $(function() {
   // Adds the visual chat typing message
   function addChatTyping (data) {
     data.typing = true;
-    data.message = '正在輸入...';
+    data.message = 'typing ...';
     addChatMessage(data);
   }
 
@@ -230,7 +230,7 @@ $(function() {
   socket.on('login', function (data) {
     connected = true;
     // Display the welcome message
-    var message = "=== 歡迎來到 Chat FCU 逢甲校聊 ===";
+    var message = "=== Welcom to Chat Demo !! ===";
     log(message, {
       prepend: true
     });
@@ -244,13 +244,13 @@ $(function() {
 
   // Whenever the server emits 'user joined', log it in the chat body
   socket.on('user joined', function (data) {
-    log(data.username + ' 也加入了');
+    log(data.username + ' join');
     addParticipantsMessage(data);
   });
 
   // Whenever the server emits 'user left', log it in the chat body
   socket.on('user left', function (data) {
-    log(data.username + ' 離開了');
+    log(data.username + ' leave');
     addParticipantsMessage(data);
     removeChatTyping(data);
   });
