@@ -2,7 +2,6 @@ Chat-FCU
 ==================================
 
 chat app for fcu run on heroku     
-demo site:http://dev-chat-demo.herokuapp.com/     
 
 ##about
 
