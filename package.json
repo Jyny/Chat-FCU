@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "fcu-chat dev",
   "dependencies": {
-    "express": "4.3.1",
-    "socket.io": "1.2.0"
+    "express": "4.22.0",
+    "socket.io": "2.5.1"
   }
 }
